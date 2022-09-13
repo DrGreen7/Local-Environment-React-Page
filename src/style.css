@@ -1,0 +1,74 @@
+* {
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  box-sizing: border-box;
+  font-family: "Inter", sans-serif;
+  overflow: hidden;
+  padding: 5rem 8rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: linear-gradient(
+    to top,
+    rgb(9, 32, 63) 0%,
+    rgb(83, 120, 149) 100%
+  );
+  height: 100vh;
+}
+
+.navbar {
+  display: flex;
+  background: #21222a;
+  justify-content: space-between;
+  align-items: center;
+  height: 90px;
+  padding: 2rem;
+  border-top-right-radius: 0.4rem;
+  border-top-left-radius: 0.4rem;
+}
+.navbar > div {
+  display: flex;
+  align-items: center;
+}
+
+.navbar img {
+  width: 30px;
+  margin-right: 5px;
+}
+
+.navbar > div h1 {
+  font-size: 23px;
+  color: #61dafb;
+}
+
+.navbar > h1 {
+  font-size: 16px;
+  color: #deebf8;
+  font-weight: 600;
+}
+
+.main {
+  background: #282d35 url(images/reactjs-icon 2.png) no-repeat right 75%;
+  color: white;
+  padding: 3rem 2rem;
+}
+
+.main > h1 {
+  font-size: 50px;
+  color: #ffffff;
+  margin-bottom: 3rem;
+  letter-spacing: -0.05em;
+}
+
+.main > ul li {
+  font-size: 20px;
+  margin-bottom: 1rem;
+}
+
+.main > ul li::marker {
+  color: #61dafb;
+  font-size: 1.4rem;
+}
